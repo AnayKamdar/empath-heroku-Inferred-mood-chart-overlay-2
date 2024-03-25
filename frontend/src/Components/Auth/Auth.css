@@ -1,0 +1,152 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+.authContent {
+  text-align: center;
+  padding: 50px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+.authImage {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+/* Styling the buttons */
+.btn-light {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* space between icon and text */
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+
+.next-button {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: 'clear';
+  border-color: black; border-width: 1px; border-style: solid;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.next-button:hover {
+  border-color: black; border-width: 1px; border-style: solid;
+  color: white;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.login-divider span { 
+  padding: 0 15px;
+  z-index: 1;
+  position: relative;
+  background-color: #fff; /* Assuming the background is white, adjust as needed */
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid lightgray; /* This creates the gray line */
+}
+
+.login-divider::before {
+  margin-right: 15px;
+}
+
+.login-divider::after {
+  margin-left: 15px;
+}
+
+.form-control {
+  background-color: rgb(236, 236, 236);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding-left: 45px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  transition: 0.3s;
+}
+
+.form-control::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.form-control:focus {
+  background-color: #e5e5e5;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control-icon {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: black;
+  pointer-events: none;
+}
+
+.form-group {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .authImage {
+    display: none;
+  }
+}
+
+.forgot-password-link{
+  cursor: pointer;
+  border-color: rgb(48, 48, 48); border-width: 2px; border-style: solid;
+  border-radius: 100px;
+}
+
+.forgot-password-link:hover {
+  cursor: pointer;
+  border-color: rgb(48, 48, 48); border-width: 2px; border-style: solid;
+  border-radius: 100px;
+  font-weight: 700  ;
+  background-color: #e5e5e5;
+}

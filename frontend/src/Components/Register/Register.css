@@ -1,0 +1,171 @@
+.authContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+  
+  .authContent {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .authImage {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .btn-light {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .next-button {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #60b6b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  .validate-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #60b6b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 48px;
+  }
+
+  .next-button:disabled {
+    background-color: #ccc;
+  }
+
+  .validate-button.validated {
+    background-color: #449118;
+    color: #fff;
+  }
+
+  .validate-button.invalid {
+    background-color: #ff8989;
+    color: white;
+  }
+  
+  .line {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+
+  .form-group.mb-3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn.btn-secondary.validate-button {
+    margin-left: 10px;
+    width: 40%;
+  }
+
+  .password-input {
+    position: relative;
+    width: 100%;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    background-color: transparent;
+    transform: translateY(-50%);
+    border: none;
+    align-items: center;
+  }
+  .password-toggle-button:hover {
+    background-color: transparent;
+  }
+
+  .validMatch {
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border-radius: 5px;
+    padding-left: 45px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    transition: 0.3s;
+    border: none;
+    background-color: #85c95e;
+  }
+  .invalidMatch {
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border-radius: 5px;
+    padding-left: 45px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    transition: 0.3s;
+    border: none;
+    background-color: #ff8989;
+  }
+  .invalidMatch:focus {
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  .validMatch:focus {
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .authImage {
+      display: none;
+    }
+  }

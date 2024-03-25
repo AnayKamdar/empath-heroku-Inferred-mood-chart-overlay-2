@@ -1,0 +1,17 @@
+{
+    "scripts": {
+        "client": "cd frontend && npm start",
+        "server": "cd backend && node server.js",
+        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+        "heroku-postbuild": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend"
+    },
+    "dependencies": {
+        "@fortawesome/free-regular-svg-icons": "^6.5.1",
+        "@nivo/bar": "^0.83.1",
+        "concurrently": "^8.2.1",
+        "date-fns": "^2.30.0",
+        "express-session": "^1.17.3",
+        "winston": "^3.11.0",
+        "winston-daily-rotate-file": "^5.0.0"
+    }
+}

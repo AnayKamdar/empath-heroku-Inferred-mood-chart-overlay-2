@@ -1,0 +1,139 @@
+.unlink-modal .modal-content {
+    background-color:  rgb(39, 39, 39);
+    color: white;
+}
+
+.client-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.client-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.client-list li {
+  padding: 10px;
+  transition: background-color 0.3s;
+  background:  #3f3f3f;
+  border-radius: 10px;
+}
+
+.client-list li:hover {
+  background-color: #4e4e4e;
+}
+  
+.unlink-button {
+    display: flex;
+    margin-left: 10px;
+    background: none;
+    border: 2px solid rgb(255, 88, 88);
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(255, 88, 88);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+.unlink-button:hover {
+    display: flex;
+    color: white ;
+    border-color: rgb(255, 88, 88) ;
+    background-color: rgb(255, 88, 88) ;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlink-confirm {
+    margin-left: 10px;
+    background: none;
+    border: 2px solid rgb(65, 252, 81);
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(65, 252, 81);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unlink-confirm:hover {
+    color: white ;
+    border-color: rgb(65, 252, 81) ;
+    background-color: rgb(65, 252, 81) ;
+}
+.unlink-cancel {
+    margin-left: 10px;
+    background: none;
+    border: 2px solid rgb(255, 88, 88);
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(255, 88, 88);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unlink-cancel:hover {
+    color: white ;
+    border-color: rgb(255, 88, 88) ;
+    background-color: rgb(255, 88, 88) ;
+}
+
+.unlink-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.seats-remaining {
+    font-size: 22px;
+}
+
+.seats-remaining-red {
+    font-size: 22px;
+    color: rgb(255, 88, 88);
+}
+
+.unlink-text {
+    font-size: 15px;
+    color: #a3a3a3;
+}
+
+.unlink-header {
+    text-align: center;
+}
+
+.unlink-title {
+    font-size: 32px;
+}
+
+.unlink-limit-message {
+    font-size: 15px;
+    color: rgb(255, 88, 88);
+}
+
+.unlink-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2px;
+}
+
+.unlink-text{
+    position: relative;
+    bottom: 1px;
+}

@@ -1,0 +1,16 @@
+.env
+node_modules/
+./empath-dashboard/.env
+./empath-dashboard/node_modules/
+./empath-server/.env
+./empath-server/node_modules/
+
+./empath-server/package.json
+./empath-server/package-lock.json
+
+./empath-dashboard/package.json
+./empath-dashboard/package-lock.json
+
+./empath-heroku/backend/package.json
+./empath-heroku/backend/package-lock.json
+

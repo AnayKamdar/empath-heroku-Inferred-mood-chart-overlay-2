@@ -1,0 +1,11 @@
+.password-change-container {
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: flex-start; /* Align items to the left */
+    max-width: 30%; /* Control the max width of the form */
+    padding: 10px;
+    /* border-style: solid; border-color: #b0d4e8 ; border-width: 3px;   */
+  }
+
+  .password-change-title {
+    color: rgb(129, 129, 129);
+  }

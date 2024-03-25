@@ -1,0 +1,6 @@
+[submodule "empath-server"]
+	path = empath-server
+	url = https://github.com/Reality-Articulated/empath-server
+[submodule "empath-dashboard"]
+	path = empath-dashboard
+	url = https://github.com/Reality-Articulated/empath-dashboard
